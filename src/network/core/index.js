@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { serverName, apiCustomCode, apiPrefix } from '../../config'
-import { getToken } from '../../untils'
+import { getToken } from '../../utils'
 
 const request = async ({url, method, params, data}) =>  new Promise(function (resolve, reject) {
     axios({

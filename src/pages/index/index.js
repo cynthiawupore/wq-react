@@ -1,6 +1,6 @@
 import React, { Component , Fragment } from 'react';
 import './index.less'
-import { resDataPretreat }  from '../../untils/res-data-pretreat'
+import { resDataPretreat }  from '../../utils/res-data-pretreat'
 import network from '../../network'
 
 export default class Index extends Component {
